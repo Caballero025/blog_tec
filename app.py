@@ -13,7 +13,7 @@ app =  Flask(__name__)
 #Ruta raiz
 @app.route('/')
 def index():
-    return 'Hola  esto es una prueba'
+    return 'Hola  esto es una prueba con contenedores automatiocos, cada 1 minuto'
 
 if __name__ == '__main__':
     app.run(debug=True)
